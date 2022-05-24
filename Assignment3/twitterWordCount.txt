@@ -1,0 +1,9 @@
+Education: 65
+Canada: 350
+hot: 24
+cold: 54
+Flu: 0
+Snow: 6
+Indoor: 0
+rain: 47
+ice: 10

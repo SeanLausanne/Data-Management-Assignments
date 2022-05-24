@@ -1,0 +1,18 @@
+This is Task2 of Assignments2.
+The codes are in ./src/assignment2/problem2/task2
+
+TransactionProcessor is the main class. It creates the threads of transactions and run them.
+
+SQLConnector is the connector to establish connection to MySQL
+
+Transaction.java is the transaction object.
+
+TransactionExecutor.java creates instances of Transaction based on T1, T2 and T3 given in the table in the assignment.
+
+TransactionThread.java is the thread class of executing transactions without lock.
+
+TransactionThreadWithLock.java is the thread class of executing transactions with locks.
+
+Every time the project runs, it overwrites transaction-log.txt. 
+transaction-log-with-lock-example.text and transaction-log-no-lock-example.text are the examples of logs with and without lock.
+ 

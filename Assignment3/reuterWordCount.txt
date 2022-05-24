@@ -1,0 +1,9 @@
+Education: 3
+Canada: 50
+hot: 3
+cold: 7
+Flu: 0
+Snow: 2
+Indoor: 0
+rain: 2
+ice: 0

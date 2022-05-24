@@ -1,0 +1,9 @@
+T1: select * from customers where customer_zip_code_prefix = 3167
+T1: update customers set customer_id = "updateValueT1" where customer_zip_code_prefix = 3167
+T1: commit
+T2: select * from customers where customer_zip_code_prefix = 3167
+T2: update customers set customer_id = "updateValueT2" where customer_zip_code_prefix = 3167
+T2: commit
+T3: select * from customers where customer_zip_code_prefix = 3167
+T3: update customers set customer_id = "updateValueT3" where customer_zip_code_prefix = 3167
+T3: commit
