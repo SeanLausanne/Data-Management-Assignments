@@ -6,10 +6,10 @@ import twitter4j.conf.ConfigurationBuilder;
 
 public class TwitterConnector {
 	
-	String consumerKey = "TNjWcCXbFAZsMt0kOs4Ksjodi";
-	String consumerSecret = "zW5XtLPb6ubC7lowXERca1cfDG53jTWlxtYUsvEetB3iYjvm3S";
-	String accessToken = "1039356566519074817-WNB0X1rxuTg0XEXgApCtVwgGSU7rpu";
-	String accessSecret = "Jrd0COZuOi8z2zZy3tICKnyfSJ6jY1XhTLLh0yUcNN4b0";
+	String consumerKey = "your consumer key";
+	String consumerSecret = "your consumer secret";
+	String accessToken = "your access token";
+	String accessSecret = "your access secret";
 	ConfigurationBuilder configurationBuilder;
 	
 	public TwitterConnector() {
